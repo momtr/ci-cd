@@ -1,0 +1,25 @@
+{
+  "name": "ci-cd",
+  "version": "1.0.0",
+  "description": "project for testing:",
+  "main": "index.js",
+  "directories": {
+    "start": "src"
+  },
+  "scripts": {
+    "start": "cd src && node index.js",
+    "dev": "cd src && nodemon index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
